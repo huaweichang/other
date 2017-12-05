@@ -1,0 +1,10 @@
+#!/usr/bin/python
+# EASY-INSTALL-ENTRY-SCRIPT: 'mglob==0.4','console_scripts','mglob'
+__requires__ = 'mglob==0.4'
+import sys
+from pkg_resources import load_entry_point
+
+if __name__ == '__main__':
+    sys.exit(
+        load_entry_point('mglob==0.4', 'console_scripts', 'mglob')()
+    )
